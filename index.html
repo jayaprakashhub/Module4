@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(75, 219, 183);
+}
+.heading{
+    width: 100vw;
+    height: 50px;
+    background-color: aqua;
+}
+.heading h1{
+    color: white;
+    padding: 15px;
+    text-align: center;
+   
+}
+.container
+{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    color: aliceblue;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px black;
+    background: url(i.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+@media screen and (max-width:430px){
+    .card{
+        width: 200px;
+    height: 200px;
+    }
+}
+h2{
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Module 4</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+                <h2>Intro to javascript</h2>
+                <p></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
